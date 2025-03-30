@@ -1,11 +1,11 @@
 <div align="center">
-  <img height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzZraXpwNXA3d3NyajFxMHJhenQ1MTlkaTk4bWN4OHZnZmRkOG5yZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif"  />
+  <img height="150" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDYwdHozZXMwZDQ2dWtvdWUzaTIzcjZrY3pmZHlrMmhtZTd1dWFrcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/S9d8XB557e8phGLBVS/giphy.gif"  />
 </div>
 
 ###
 
 <div align="center">
-  <a href="www.linkedin.com/in/marlonastudillomuñoz" target="_blank">
+  <a href="https://www.linkedin.com/in/marlonastudillomuñoz" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   </a>
   <a href="marlonastudillo1@gmail.com" target="_blank">
@@ -23,7 +23,7 @@
 
 ###
 
-<p align="left">I'm Marlon Astudillo Muñoz<br><br>- 🔭 I’m studying Systems Engineering.<br>- 📚 I'm currently learning Mobile APP Development.<br>- ⚡ In my free time, I like playing video games and going outside.</p>
+<p align="left">I'm Marlon Astudillo Muñoz<br><br>- 🔭 I’m studying Systems Engineering.<br>- 📚 I'm currently learning Mobile App Development.<br>- ⚡ In my free time, I like playing video games and going outside.</p>
 
 ###
 
