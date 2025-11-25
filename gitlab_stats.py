@@ -1,5 +1,9 @@
 import requests
 from collections import Counter
+import os
+
+USERNAME = os.getenv("GITLAB_USERNAME", "MARAST01")
+
 
 GITLAB_USERNAME = "MARAST01"
 GITLAB_TOKEN = ""  # se setea con GitHub Secrets
@@ -97,3 +101,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
