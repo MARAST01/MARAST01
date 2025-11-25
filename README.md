@@ -28,7 +28,6 @@ I'm Marlon Astudillo Muñoz<br><br>
 - ⚡ I like video games & going outside
 </p>
 
-###
 
 <h3 align="left">🛠 Language and Tools</h3>
 
