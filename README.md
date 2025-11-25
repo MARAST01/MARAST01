@@ -91,7 +91,7 @@ I'm Marlon Astudillo Muñoz<br><br>
 
 ###
 
-<h3 align="center">🐍 Pacman Contribution Game</h3>
+<h3 align="center">🐍 Snake Contribution Game</h3>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" width="100%"/>
