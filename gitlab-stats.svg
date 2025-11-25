@@ -1,0 +1,18 @@
+
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-size: 22px; font-weight: bold; fill: #f8f8f2; }
+    .text { font-size: 16px; fill: #f8f8f2; }
+    .card { fill: #282a36; stroke: #bd93f9; stroke-width: 2; rx: 15; }
+  </style>
+
+  <rect class="card" width="600" height="200" />
+
+  <text x="300" y="40" text-anchor="middle" class="title">
+    🚀 GitLab Stats (MARAST01)
+  </text>
+
+  <text x="40" y="90" class="text">📦 Projects: 2</text>
+  <text x="40" y="120" class="text">📝 Commits: 0</text>
+  <text x="40" y="150" class="text">💻 Top language: Python</text>
+</svg>
