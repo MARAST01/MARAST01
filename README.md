@@ -91,11 +91,17 @@ I'm Marlon Astudillo Muñoz<br><br>
 
 ###
 
-<h3 align="left">🔥 My Stats</h3>
+<h3 align="center">🐍 Pacman Contribution Game</h3>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MARAST01&theme=dracula" width="100%"/>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" width="100%"/>
+</div>
 
-<div align="center" style="margin-top:20px">
+###
+
+<h3 align="center">🔥 GitHub Stats</h3>
+
+<div align="center">
 
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=MARAST01&show_icons=true&theme=dracula&hide_border=false" height="150"/>
 
