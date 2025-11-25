@@ -23,8 +23,8 @@
 
 <p align="left">
 I'm Marlon Astudillo Muñoz<br><br>
-- 🔭 Systems Engineering student<br>
-- 📚 Currently learning Web Development<br>
+- 🔭 Systems Engineering student <br>
+- 📚 Currently learning Web Development <br>
 - ⚡ I like video games & going outside
 </p>
 
@@ -33,6 +33,7 @@ I'm Marlon Astudillo Muñoz<br><br>
 <h3 align="left">🛠 Language and Tools</h3>
 
 <div align="left">
+
 <!-- Languages -->
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40"/>
 <img width="12"/>
@@ -85,6 +86,7 @@ I'm Marlon Astudillo Muñoz<br><br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="40"/>
 <img width="12"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40"/>
+
 </div>
 
 ###
@@ -94,8 +96,11 @@ I'm Marlon Astudillo Muñoz<br><br>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=MARAST01&theme=dracula" width="100%"/>
 
 <div align="center" style="margin-top:20px">
-  <img src="https://github-readme-stats.vercel.app/api?username=MARAST01&show_icons=true&theme=dracula&hide_border=false" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MARAST01&layout=compact&theme=dracula&hide_border=false" height="150"/>
+
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=MARAST01&show_icons=true&theme=dracula&hide_border=false" height="150"/>
+
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=MARAST01&layout=compact&theme=dracula&hide_border=false" height="150"/>
+
 </div>
 
 ###
