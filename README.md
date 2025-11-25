@@ -96,7 +96,11 @@ I'm Marlon Astudillo Muñoz<br><br>
 <div align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" width="100%"/>
 </div>
+<h3 align="center">🔥 GitLab Stats</h3>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MARAST01/MARAST01/main/gitlab-stats.svg" />
+</div>
 ###
 
 <h3 align="center">🔥 GitHub Stats</h3>
