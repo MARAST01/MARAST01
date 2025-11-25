@@ -1,9 +1,6 @@
 name: Update GitLab Stats
 
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+on: push
 
 permissions:
   contents: write
@@ -40,3 +37,4 @@ jobs:
           git add gitlab-stats.svg
           git commit -m "Update GitLab Stats" || exit 0
           git push
+
