@@ -23,7 +23,7 @@
 
 ###
 
-<p align="left">I'm Marlon Astudillo Muñoz<br><br>- 🔭 I’m studying Systems Engineering.<br>- 📚 I'm currently learning Mobile App Development.<br>- ⚡ In my free time, I like playing video games and going outside.</p>
+<p align="left">I'm Marlon Astudillo Muñoz<br><br>- 🔭 I’m studying Systems Engineering.<br>- 📚 I'm currently learning Web Development.<br>- ⚡ In my free time, I like playing video games and going outside.</p>
 
 ###
 
