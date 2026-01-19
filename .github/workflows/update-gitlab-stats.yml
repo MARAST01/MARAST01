@@ -1,0 +1,34 @@
+name: Update GitLab Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Se ejecuta cada día a medianoche
+  workflow_dispatch: # Te permite ejecutarlo manualmente desde la pestaña Actions
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate SVG
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+        run: python scripts/generate_gitlab_svg.py
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add gitlab-stats.svg
+          git commit -m "🔥 Update GitLab Stats" || exit 0
+          git push
