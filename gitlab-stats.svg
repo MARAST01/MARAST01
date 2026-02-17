@@ -1,38 +1,25 @@
-name: Update GitLab Stats
 
-on:
-  schedule:
-    - cron: '0 0 * * *' # Ejecutar cada 24hs
-  workflow_dispatch:      # Botón para ejecutar manual
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ff79c6; }
+    .stat { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fff; }
+    .label { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #9f9f9f; }
+  </style>
+  
+  <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" fill="#141321" stroke="#e4e2e2" stroke-opacity="0.5"/>
+  
+  <text x="25" y="35" class="header">GitLab Stats</text>
+  
+  <text x="25" y="80" class="stat">User:</text>
+  <text x="100" y="80" class="label">MARAST01</text>
+  
+  <text x="25" y="110" class="stat">ID:</text>
+  <text x="100" y="110" class="label">27838103</text>
+  
+  <text x="25" y="140" class="stat">Recent Activity:</text>
+  <text x="140" y="140" class="label">20 events (last 20 items)</text>
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Generate SVG
-        # 👇 ¡ESTA ES LA PARTE QUE TE FALTA O ESTÁ MAL! 👇
-        env:
-          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
-        # 👆 Sin esto, Python no ve el token
-        run: python scripts/generate_gitlab_svg.py
-        # (Asegúrate que la ruta al archivo .py sea la correcta)
-
-      - name: Commit and Push
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          # El script genera el archivo, aquí lo subimos
-          git add gitlab-stats.svg
-          git commit -m "🔥 Update GitLab Stats" || exit 0
-          git push
+  <path d="M460 160 L440 160 L450 130 Z" fill="#fc6d26"/>
+  <circle cx="400" cy="100" r="40" stroke="#ff79c6" stroke-width="4" fill="none" opacity="0.8" />
+  <text x="400" y="105" text-anchor="middle" class="header" font-size="20">GL</text>
+</svg>
