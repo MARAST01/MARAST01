@@ -1,7 +1,38 @@
+name: Update GitLab Stats
 
-<svg width="300" height="100" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#1e1e1e" rx="10" />
-  <text x="20" y="35" fill="white" font-family="Arial" font-size="18">GitLab Stats</text>
-  <text x="20" y="70" fill="#fc6d26" font-family="Arial" font-size="14">User: Unknown</text>
-  <text x="150" y="70" fill="#999" font-family="Arial" font-size="12">ID: N/A</text>
-</svg>
+on:
+  schedule:
+    - cron: '0 0 * * *' # Ejecutar cada 24hs
+  workflow_dispatch:      # Botón para ejecutar manual
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate SVG
+        # 👇 ¡ESTA ES LA PARTE QUE TE FALTA O ESTÁ MAL! 👇
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+        # 👆 Sin esto, Python no ve el token
+        run: python scripts/generate_gitlab_svg.py
+        # (Asegúrate que la ruta al archivo .py sea la correcta)
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # El script genera el archivo, aquí lo subimos
+          git add gitlab-stats.svg
+          git commit -m "🔥 Update GitLab Stats" || exit 0
+          git push
