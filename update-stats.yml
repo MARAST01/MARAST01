@@ -1,0 +1,42 @@
+name: Update GitLab Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Se ejecuta cada medianoche
+  workflow_dispatch:      # Te permite darle al botón manual
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:          # Permisos necesarios para guardar el archivo
+      contents: write
+      
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Instalar librerías
+        run: pip install requests
+
+      - name: Ejecutar el script
+        env:
+          # AQUÍ CONECTAMOS TU SECRETO CON EL SCRIPT
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }} 
+        # IMPORTANTE: Asegúrate de que tu archivo python se llama así.
+        # Si tu archivo se llama "gitlab-stats.py", deja esta línea.
+        # Si se llama "script.py", cambia el nombre aquí abajo.
+        run: python gitlab-stats.py
+
+      - name: Guardar cambios (Commit & Push)
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add *.svg
+          # Si hay cambios, hace commit. Si no, no hace nada (para no dar error)
+          git commit -m "🔥 Update GitLab Stats" || exit 0
+          git push
