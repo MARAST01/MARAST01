@@ -98,10 +98,8 @@ I'm Marlon Astudillo Muñoz<br><br>
 <h3 align="center">🔥 GitLab Stats</h3>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/MARAST01/MARAST01/main/gitlab-stats.svg" />
+  <img src="./gitlab-stats.svg" alt="GitLab Stats" height="180" />
 </div>
-###
-
 <h3 align="center">🔥 GitHub Stats</h3>
 
 <div align="center">
