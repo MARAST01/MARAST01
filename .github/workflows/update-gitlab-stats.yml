@@ -2,12 +2,15 @@ name: Update GitLab Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Se ejecuta cada día a medianoche
-  workflow_dispatch: # Te permite ejecutarlo manualmente desde la pestaña Actions
+    - cron: '0 0 * * *' # Ejecutar cada 24hs
+  workflow_dispatch:      # Botón para ejecutar manual
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permiso vital para guardar la imagen
+      
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -23,7 +26,8 @@ jobs:
       - name: Generate SVG
         env:
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
-        run: python scripts/generate_gitlab_svg.py
+        # 👇 AQUÍ ESTABA EL ERROR. Ahora apunta a tu archivo real:
+        run: python gitlab-stats.py
 
       - name: Commit and Push
         run: |
