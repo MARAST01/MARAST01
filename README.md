@@ -104,9 +104,9 @@ I'm Marlon Astudillo Muñoz<br><br>
 
 <div align="center">
 
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=MARAST01&show_icons=true&theme=dracula&hide_border=false" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=MARAST01&show_icons=true&theme=dracula&hide_border=false" height="150"/>
 
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=MARAST01&layout=compact&theme=dracula&hide_border=false" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MARAST01&layout=compact&theme=dracula&hide_border=false" height="150"/>
 
 </div>
 
