@@ -1,39 +1,53 @@
+<!-- ============ BANNER ============ -->
 <div align="center">
-  <img height="150" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDYwdHozZXMwZDQ2dWtvdWUzaTIzcjZrY3pmZHlrMmhtZTd1dWFrcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/S9d8XB557e8phGLBVS/giphy.gif" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Marlon%20Astudillo&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Systems%20Engineering%20Student%20%7C%20Web%20Developer%20in%20progress&descAlignY=58&descSize=18" width="100%"/>
 </div>
 
-###
+<!-- ============ TYPING ANIMATION ============ -->
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=BD93F9&center=true&vCenter=true&width=600&lines=Hey+there!+%F0%9F%91%8B;I+build+things+with+code+%F0%9F%92%BB;Learning+Web+Development+%F0%9F%93%9A;Video+games+%26+outdoors+%F0%9F%8E%AE%F0%9F%8C%84" alt="Typing SVG" />
+  </a>
+</div>
 
+<br>
+
+<!-- ============ CONTACT ============ -->
 <div align="center">
   <a href="https://www.linkedin.com/in/marlonastudillo/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="25"/>
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="28"/>
   </a>
   <a href="mailto:marlonastudillo1@gmail.com">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&color=D14836&logoColor=white&style=for-the-badge" height="25"/>
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&color=D14836&logoColor=white&style=for-the-badge" height="28"/>
   </a>
+  <img src="https://komarev.com/ghpvc/?username=MARAST01&label=Profile%20views&color=bd93f9&style=for-the-badge" height="28"/>
 </div>
 
-###
+<br>
 
-<h1 align="center">Hey there 👋</h1>
+<!-- ============ ABOUT ME ============ -->
+<h3 align="center">👨‍💻 About Me</h3>
 
-###
+<div align="center">
 
-<h3 align="left">👩‍💻 About Me</h3>
+| | |
+|:--|:--|
+| 👤 **Name** | Marlon Astudillo Muñoz |
+| 🔭 **Studying** | Systems Engineering |
+| 📚 **Learning** | Web Development |
+| ⚡ **Hobbies** | Video games & going outside |
+| 📍 **Location** | Colombia 🇨🇴 |
 
-<p align="left">
-I'm Marlon Astudillo Muñoz<br><br>
-- 🔭 Systems Engineering student <br>
-- 📚 Currently learning Web Development <br>
-- ⚡ I like video games & going outside
-</p>
+</div>
 
+<br>
 
-<h3 align="left">🛠 Language and Tools</h3>
+<!-- ============ TECH STACK ============ -->
+<h3 align="center">🛠 Languages and Tools</h3>
 
-<div align="left">
+<div align="center">
 
-<!-- Languages -->
+**Languages**<br><br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40"/>
 <img width="12"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40"/>
@@ -41,31 +55,30 @@ I'm Marlon Astudillo Muñoz<br><br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40"/>
 <img width="12"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="40"/>
-<img width="12"/>
 
-<!-- Frontend -->
+<br><br>
+
+**Frontend & Backend**<br><br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40"/>
 <img width="12"/>
-
-<!-- Backend -->
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40"/>
 <img width="12"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" height="40"/>
-<img width="12"/>
 
-<!-- DevOps / Cloud -->
+<br><br>
+
+**DevOps, Cloud & Database**<br><br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="40"/>
 <img width="12"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40"/>
 <img width="12"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40"/>
 <img width="12"/>
-
-<!-- Database -->
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40"/>
-<img width="12"/>
 
-<!-- Tools -->
+<br><br>
+
+**Tools**<br><br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40"/>
 <img width="12"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg" height="40"/>
@@ -88,26 +101,42 @@ I'm Marlon Astudillo Muñoz<br><br>
 
 </div>
 
-###
+<br>
 
-<h3 align="center">🐍 Snake Contribution Game</h3>
+<!-- ============ STATS ============ -->
+<h3 align="center">📊 GitHub Stats</h3>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" width="100%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=MARAST01&show_icons=true&theme=dracula&hide_border=true&count_private=true&include_all_commits=true&border_radius=12" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MARAST01&layout=compact&theme=dracula&hide_border=true&border_radius=12" height="170"/>
 </div>
-<h3 align="center">🔥 GitLab Stats</h3>
+
+<br>
+
+<h3 align="center">🦊 GitLab Stats</h3>
 
 <div align="center">
   <img src="./gitlab-stats.svg" alt="GitLab Stats" height="180" />
 </div>
-<h3 align="center">🔥 GitHub Stats</h3>
+
+<br>
+
+<!-- ============ ACTIVITY ============ -->
+<h3 align="center">📈 Contribution Graph</h3>
 
 <div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=MARAST01&show_icons=true&theme=dracula&hide_border=false" height="150"/>
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MARAST01&layout=compact&theme=dracula&hide_border=false" height="150"/>
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MARAST01&theme=dracula&hide_border=true&area=true&custom_title=Contribution%20Graph" width="100%"/>
 </div>
 
-###
+<br>
+
+<h3 align="center">🐍 Snake Contribution Game</h3>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+</div>
